@@ -1,0 +1,39 @@
+#results from running code with the Alexa start session test from AWS
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "Welcome to Quizie. Let's begin. How does RPC simulate call by reference and call by value?",
+      "type": "PlainText"
+    },
+    "shouldEndSession": false,
+    "reprompt": {
+      "outputSpeech": {
+        "text": "How does RPC simulate call by reference and call by value?",
+        "type": "PlainText"
+      }
+    },
+    "card": {
+      "content": "Welcome to Quizie. Let's begin. How does RPC simulate call by reference and call by value?",
+      "type": "Simple",
+      "title": "Quizie"
+    }
+  },
+  "sessionAttributes": {
+    "reprompt_text": null,
+    "current_questions_index": 0,
+    "answers": [
+      "Make distributed computing look like centralized computing",
+      "Allow remote services be called as procedures"
+    ],
+    "score": 0,
+    "questions": [
+      3,
+      2,
+      4,
+      0,
+      1
+    ],
+    "speech_output": "Welcome to Quizie. Let's begin. How does RPC simulate call by reference and call by value?"
+  }
+}

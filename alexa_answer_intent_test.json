@@ -1,0 +1,63 @@
+#Alexa Answer Intent Test
+{
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.[unique-value-here]",
+    "attributes": {
+      "correctAnswerText": "Donner",
+      "speechOutput": "What is the goal of RPC variants?",
+      "repromptText": "What is the goal of RPC variants?",
+      "correctAnswerIndex": 0,
+      "STATE": "_TRIVIAMODE",
+      "score": 0,
+      "questions": [
+        16,
+        20,
+        29,
+        2,
+        19
+      ],
+      "currentQuestionIndex": 0
+    },
+    "user": {
+      "userId": "amzn1.ask.account.[unique-value-here]"
+    },
+    "application": {
+      "applicationId": "amzn1.ask.skill.[unique-value-here]"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "locale": "en-US",
+    "timestamp": "2016-10-27T21:06:28Z",
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.[unique-value-here]",
+    "intent": {
+      "slots": {
+        "Item": {
+          "name": "Answer",
+          "value": "1"
+        }
+      },
+      "name": "AnswerIntent"
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      },
+      "application": {
+        "applicationId": "amzn1.ask.skill.[unique-value-here]"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.[unique-value-here]"
+      }
+    }
+  }
+}

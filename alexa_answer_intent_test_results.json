@@ -1,0 +1,39 @@
+#Test Results from running code with Alexa Answer Intent Test
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "set([\"That's not it\"]). The correct answer is ['Make distributed computing look like centralized computing', 'Allow remote services be called as procedures']. Next question: What is the goal of Remote Procedure Calls?",
+      "type": "PlainText"
+    },
+    "shouldEndSession": false,
+    "reprompt": {
+      "outputSpeech": {
+        "text": "What is the goal of Remote Procedure Calls?",
+        "type": "PlainText"
+      }
+    },
+    "card": {
+      "content": "set([\"That's not it\"]). The correct answer is ['Make distributed computing look like centralized computing', 'Allow remote services be called as procedures']. Next question: What is the goal of Remote Procedure Calls?",
+      "type": "Simple",
+      "title": "Quizie"
+    }
+  },
+  "sessionAttributes": {
+    "reprompt_text": "What is the goal of Remote Procedure Calls?",
+    "current_questions_index": 0,
+    "answers": [
+      "Make distributed computing look like centralized computing",
+      "Allow remote services be called as procedures"
+    ],
+    "score": 0,
+    "questions": [
+      16,
+      20,
+      29,
+      2,
+      19
+    ],
+    "speech_output": "set([\"That's not it\"]). The correct answer is ['Make distributed computing look like centralized computing', 'Allow remote services be called as procedures']. Next question: What is the goal of Remote Procedure Calls?"
+  }
+}
